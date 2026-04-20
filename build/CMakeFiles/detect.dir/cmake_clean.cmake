@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/detect.dir/YOLOv9.cpp.o"
-  "CMakeFiles/detect.dir/YOLOv9.cpp.o.d"
+  "CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o"
+  "CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o.d"
   "CMakeFiles/detect.dir/main.cpp.o"
   "CMakeFiles/detect.dir/main.cpp.o.d"
   "detect"

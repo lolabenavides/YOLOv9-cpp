@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lola/yolov9_cpp/YOLOv9.cpp" "CMakeFiles/detect.dir/YOLOv9.cpp.o" "gcc" "CMakeFiles/detect.dir/YOLOv9.cpp.o.d"
+  "/home/lola/yolov9_cpp/YOLOv9/YOLOv9.cpp" "CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o" "gcc" "CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o.d"
   "/home/lola/yolov9_cpp/main.cpp" "CMakeFiles/detect.dir/main.cpp.o" "gcc" "CMakeFiles/detect.dir/main.cpp.o.d"
   )
 

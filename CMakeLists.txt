@@ -7,12 +7,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 find_package(OpenCV REQUIRED)
 
-add_executable(detect main.cpp YOLOv9.cpp)
+add_executable(detect main.cpp YOLOv9/YOLOv9.cpp)
 
 # Add targets (paths)
 target_include_directories(detect PRIVATE # -I
     ${OpenCV_INCLUDE_DIRS}
     /home/lola/yolov9_cpp/onnxruntime-linux-x64-1.17.0/include
+    /home/lola/yolov9_cpp/YOLOv9
 )
 target_link_libraries(detect PRIVATE 
 ${OpenCV_LIBS}

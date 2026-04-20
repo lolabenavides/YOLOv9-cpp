@@ -129,29 +129,29 @@ detect/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/build
 .PHONY : detect/fast
 
-YOLOv9.o: YOLOv9.cpp.o
-.PHONY : YOLOv9.o
+YOLOv9/YOLOv9.o: YOLOv9/YOLOv9.cpp.o
+.PHONY : YOLOv9/YOLOv9.o
 
 # target to build an object file
-YOLOv9.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLOv9.cpp.o
-.PHONY : YOLOv9.cpp.o
+YOLOv9/YOLOv9.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o
+.PHONY : YOLOv9/YOLOv9.cpp.o
 
-YOLOv9.i: YOLOv9.cpp.i
-.PHONY : YOLOv9.i
+YOLOv9/YOLOv9.i: YOLOv9/YOLOv9.cpp.i
+.PHONY : YOLOv9/YOLOv9.i
 
 # target to preprocess a source file
-YOLOv9.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLOv9.cpp.i
-.PHONY : YOLOv9.cpp.i
+YOLOv9/YOLOv9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.i
+.PHONY : YOLOv9/YOLOv9.cpp.i
 
-YOLOv9.s: YOLOv9.cpp.s
-.PHONY : YOLOv9.s
+YOLOv9/YOLOv9.s: YOLOv9/YOLOv9.cpp.s
+.PHONY : YOLOv9/YOLOv9.s
 
 # target to generate assembly for a file
-YOLOv9.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLOv9.cpp.s
-.PHONY : YOLOv9.cpp.s
+YOLOv9/YOLOv9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.s
+.PHONY : YOLOv9/YOLOv9.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... detect"
-	@echo "... YOLOv9.o"
-	@echo "... YOLOv9.i"
-	@echo "... YOLOv9.s"
+	@echo "... YOLOv9/YOLOv9.o"
+	@echo "... YOLOv9/YOLOv9.i"
+	@echo "... YOLOv9/YOLOv9.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

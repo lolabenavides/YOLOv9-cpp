@@ -5,7 +5,7 @@ int main() {
 
     //Init variables
     std::string onnx_path = "../yolov9-m-converted.onnx";
-    std::string input_folder  = "../images/inputs/assets/";
+    std::string input_folder  = "../images/inputs/";
     std::string output_folder = "../images/outputs/";
     double total_time = 0.0;
     

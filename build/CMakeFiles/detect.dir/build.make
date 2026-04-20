@@ -83,30 +83,30 @@ CMakeFiles/detect.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detect.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lola/yolov9_cpp/main.cpp -o CMakeFiles/detect.dir/main.cpp.s
 
-CMakeFiles/detect.dir/YOLOv9.cpp.o: CMakeFiles/detect.dir/flags.make
-CMakeFiles/detect.dir/YOLOv9.cpp.o: /home/lola/yolov9_cpp/YOLOv9.cpp
-CMakeFiles/detect.dir/YOLOv9.cpp.o: CMakeFiles/detect.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lola/yolov9_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/detect.dir/YOLOv9.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/detect.dir/YOLOv9.cpp.o -MF CMakeFiles/detect.dir/YOLOv9.cpp.o.d -o CMakeFiles/detect.dir/YOLOv9.cpp.o -c /home/lola/yolov9_cpp/YOLOv9.cpp
+CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o: /home/lola/yolov9_cpp/YOLOv9/YOLOv9.cpp
+CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o: CMakeFiles/detect.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lola/yolov9_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o -MF CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o.d -o CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o -c /home/lola/yolov9_cpp/YOLOv9/YOLOv9.cpp
 
-CMakeFiles/detect.dir/YOLOv9.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detect.dir/YOLOv9.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lola/yolov9_cpp/YOLOv9.cpp > CMakeFiles/detect.dir/YOLOv9.cpp.i
+CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lola/yolov9_cpp/YOLOv9/YOLOv9.cpp > CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.i
 
-CMakeFiles/detect.dir/YOLOv9.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detect.dir/YOLOv9.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lola/yolov9_cpp/YOLOv9.cpp -o CMakeFiles/detect.dir/YOLOv9.cpp.s
+CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lola/yolov9_cpp/YOLOv9/YOLOv9.cpp -o CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.s
 
 # Object files for target detect
 detect_OBJECTS = \
 "CMakeFiles/detect.dir/main.cpp.o" \
-"CMakeFiles/detect.dir/YOLOv9.cpp.o"
+"CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o"
 
 # External object files for target detect
 detect_EXTERNAL_OBJECTS =
 
 detect: CMakeFiles/detect.dir/main.cpp.o
-detect: CMakeFiles/detect.dir/YOLOv9.cpp.o
+detect: CMakeFiles/detect.dir/YOLOv9/YOLOv9.cpp.o
 detect: CMakeFiles/detect.dir/build.make
 detect: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.6.0
 detect: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.6.0
