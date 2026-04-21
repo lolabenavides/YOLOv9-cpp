@@ -1,7 +1,7 @@
-CMakeFiles/detect.dir/main.cpp.o: /home/lola/yolov9_cpp/main.cpp \
- /usr/include/stdc-predef.h /home/lola/yolov9_cpp/YOLOv9/YOLOv9.h \
- /home/lola/yolov9_cpp/onnxruntime-linux-x64-1.17.0/include/onnxruntime_cxx_api.h \
- /home/lola/yolov9_cpp/onnxruntime-linux-x64-1.17.0/include/onnxruntime_c_api.h \
+CMakeFiles/detect.dir/main.cpp.o: /home/lola/yolov9-cpp/main.cpp \
+ /usr/include/stdc-predef.h /home/lola/yolov9-cpp/YOLOv9/YOLOv9.h \
+ /home/lola/yolov9-cpp/onnxruntime-linux-x64-1.17.0/include/onnxruntime_cxx_api.h \
+ /home/lola/yolov9-cpp/onnxruntime-linux-x64-1.17.0/include/onnxruntime_c_api.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -55,7 +55,7 @@ CMakeFiles/detect.dir/main.cpp.o: /home/lola/yolov9_cpp/main.cpp \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/13/bits/std_abs.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/lola/yolov9_cpp/onnxruntime-linux-x64-1.17.0/include/onnxruntime_float16.h \
+ /home/lola/yolov9-cpp/onnxruntime-linux-x64-1.17.0/include/onnxruntime_float16.h \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/bits/cpp_type_traits.h \
  /usr/include/c++/13/ext/type_traits.h /usr/include/math.h \
@@ -188,7 +188,7 @@ CMakeFiles/detect.dir/main.cpp.o: /home/lola/yolov9_cpp/main.cpp \
  /usr/include/c++/13/bits/node_handle.h \
  /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h \
- /home/lola/yolov9_cpp/onnxruntime-linux-x64-1.17.0/include/onnxruntime_cxx_inline.h \
+ /home/lola/yolov9-cpp/onnxruntime-linux-x64-1.17.0/include/onnxruntime_cxx_inline.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
