@@ -50,7 +50,7 @@ yolov9-cpp/
 
 ```bash
 git clone https://github.com/lolabenavides/YOLOv9-cpp.git
-cd yolov9-cpp
+cd YOLOv9-cpp
 ```
 
 ### 2. Install dependencies
