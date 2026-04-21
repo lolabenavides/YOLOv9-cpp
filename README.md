@@ -58,25 +58,19 @@ cd yolov9-cpp
 **OpenCV:**
 ```bash
 sudo apt update
-sudo apt install libopencv-dev
+sudo apt install libopencv-dev -y
 ```
-TODO
-**ONNX Runtime** — download the pre-built Linux x64 package from the [official releases](https://github.com/microsoft/onnxruntime/releases) and extract it:
-```bash
-tar -xzf onnxruntime-linux-x64-<version>.tgz
-```
-Then update the path in `CMakeLists.txt` to point to your extracted folder.
 
-CMake
+**CMake** 
 ```bash
-
 sudo apt install cmake -y   
 ```
 
 ### 3. Build with CMake
 
 ```bash
-mkdir build && cd build
+mkdir build
+cd build
 cmake ..
 cmake --build .
 ```
