@@ -54,10 +54,13 @@ cd YOLOv9-cpp
 ```
 
 ### 2. Install dependencies
-
-**OpenCV:**
+**Essential build tools:**
 ```bash
 sudo apt update
+sudo apt install build-essential -y
+```
+**OpenCV:**
+```bash
 sudo apt install libopencv-dev -y
 ```
 
