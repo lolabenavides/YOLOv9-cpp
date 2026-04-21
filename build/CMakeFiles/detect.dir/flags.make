@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lola/yolov9-cpp/onnxruntime-linux-x64-1.17.0/include -I/home/lola/yolov9-cpp/YOLOv9 -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/lola/YOLOv9-cpp/onnxruntime-linux-x64-1.17.0/include -I/home/lola/YOLOv9-cpp/YOLOv9 -isystem /usr/include/opencv4
 
 CXX_FLAGS = -std=gnu++17
 
