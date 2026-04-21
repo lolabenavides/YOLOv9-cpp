@@ -78,6 +78,9 @@ cmake ..
 cmake --build .
 ```
 
+### Note
+If installation fails due to permission issues, rerun the commands with 'sudo'.
+
 ---
 
 ## Usage
