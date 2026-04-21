@@ -1,3 +1,0 @@
-/home/lola/YOLOv9-cpp/build/CMakeFiles/detect.dir
-/home/lola/YOLOv9-cpp/build/CMakeFiles/edit_cache.dir
-/home/lola/YOLOv9-cpp/build/CMakeFiles/rebuild_cache.dir
